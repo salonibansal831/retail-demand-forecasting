@@ -1,0 +1,32 @@
+{
+  "Office Supplies": {
+    "mape_pct": 15.5,
+    "avg_monthly_units_last_6mo": 2640.0,
+    "next_3mo_forecast": [
+      2599.0,
+      2283.0,
+      2295.0
+    ],
+    "recommended_reorder_qty": 2752.0
+  },
+  "Technology": {
+    "mape_pct": 24.2,
+    "avg_monthly_units_last_6mo": 979.0,
+    "next_3mo_forecast": [
+      1011.0,
+      980.0,
+      1134.0
+    ],
+    "recommended_reorder_qty": 1198.0
+  },
+  "Furniture": {
+    "mape_pct": 13.6,
+    "avg_monthly_units_last_6mo": 872.0,
+    "next_3mo_forecast": [
+      823.0,
+      833.0,
+      832.0
+    ],
+    "recommended_reorder_qty": 954.0
+  }
+}

@@ -1,0 +1,4 @@
+Category,Avg Monthly Demand (last 6mo),Forecast Next 3 Months (units),Forecast MAPE,Recommended Reorder Qty (+15% safety stock)
+Office Supplies,2640,"2599, 2283, 2295",15.5%,2752
+Technology,979,"1011, 980, 1134",24.2%,1198
+Furniture,872,"823, 833, 832",13.6%,954
