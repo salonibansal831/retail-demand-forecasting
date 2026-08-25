@@ -37,17 +37,16 @@ Office Machines, Tables, and Telephones/Communication are the top 3 sub-categori
 
 ## Repo Structure
 ```
-├── data/                        # source data
-├── forecast.py                  # cleaning, monthly aggregation, forecasting, evaluation
-├── breakdown.py                 # revenue/region breakdowns, reorder recommendation table
-├── build_excel_dashboard.py     # builds the Excel dashboard (charts, KPIs, forecast sheet)
-├── charts/                      # output visualizations (Python/matplotlib)
-└── outputs/
-    ├── forecast_results.json
-    ├── reorder_recommendations.csv
-    ├── tableau_ready_data.csv   # for Tableau Public / Power BI
-    ├── forecast_layer.csv       # forecast overlay data
-    └── retail_dashboard.xlsx    # Excel dashboard
+breakdown.py                  - revenue/region breakdowns, reorder table
+build_excel_dashboard.py      - builds the Excel dashboard
+forecast.py                   - cleaning, forecasting, evaluation
+forecast_layer.csv            - forecast overlay data
+forecast_results.json         - forecast + accuracy (MAPE) per category
+reorder_recommendations.csv   - forecast-driven reorder quantities
+retail_dashboard.xlsx         - Excel dashboard (KPIs, charts, forecast sheet)
+superstore_clean.csv          - source data
+tableau_ready_data.csv        - long-format export for Tableau/Power BI
+*.png                         - output charts
 ```
 
 ## Business Takeaway
