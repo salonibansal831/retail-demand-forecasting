@@ -34,7 +34,6 @@ Office Machines, Tables, and Telephones/Communication are the top 3 sub-categori
 ## Tools
 - **Python** (pandas, statsmodels, matplotlib) — data cleaning, Holt-Winters exponential smoothing forecasting model, MAPE validation
 - **Excel** — interactive dashboard (`retail_dashboard.xlsx`) with KPI cards, category/region breakdowns, and the forecast + reorder table, built with native charts and formulas
-- **Tableau Public** — live interactive dashboard built from `tableau_ready_data.csv` and `forecast_layer.csv` — [link here once published]
 
 ## Repo Structure
 ```
