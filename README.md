@@ -47,6 +47,7 @@ retail_dashboard.xlsx         - Excel dashboard (KPIs, charts, forecast sheet)
 superstore_clean.csv          - source data
 tableau_ready_data.csv        - long-format export for Tableau/Power BI
 *.png                         - output charts
+
 ```
 
 ## Business Takeaway
