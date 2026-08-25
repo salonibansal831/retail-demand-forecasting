@@ -21,20 +21,20 @@ Retail and inventory teams need to know how much of each product category to sto
 
 Furniture and Office Supplies forecast reliably (MAPE under 16%); Technology is noisier (24.2% MAPE), likely driven by lumpier big-ticket purchases (copiers, printers) rather than steady repeat demand — worth flagging to a planning team rather than treating all three categories the same way.
 
-![Demand forecast by category](charts/demand_forecast_by_category.png)
+![Demand forecast by category](demand_forecast_by_category.png)
 
 ### Where the revenue actually comes from
 
-![Top sub-categories by revenue](charts/top_subcategories_revenue.png)
+![Top sub-categories by revenue](top_subcategories_revenue.png)
 
 Office Machines, Tables, and Telephones/Communication are the top 3 sub-categories by revenue — useful for prioritizing which SKUs deserve the tightest forecasting attention.
 
-![Units by region](charts/units_by_region.png)
+![Units by region](units_by_region.png)
 
 ## Tools
 - **Python** (pandas, statsmodels, matplotlib) — data cleaning, Holt-Winters exponential smoothing forecasting model, MAPE validation
-- **Excel** — interactive dashboard (`outputs/retail_dashboard.xlsx`) with KPI cards, category/region breakdowns, and the forecast + reorder table, built with native charts and formulas
-- **Tableau Public** — live interactive dashboard built from `outputs/tableau_ready_data.csv` and `outputs/forecast_layer.csv` — [link here once published]
+- **Excel** — interactive dashboard (`retail_dashboard.xlsx`) with KPI cards, category/region breakdowns, and the forecast + reorder table, built with native charts and formulas
+- **Tableau Public** — live interactive dashboard built from `tableau_ready_data.csv` and `forecast_layer.csv` — [link here once published]
 
 ## Repo Structure
 ```
